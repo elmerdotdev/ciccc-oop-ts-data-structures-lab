@@ -3,7 +3,7 @@
 
 const Stack = require('../lib/Stack')
 
-function calcDistance(a, b) {
+function calcDistance(stack, a, b) {
   // your code here
 }
 
@@ -14,7 +14,7 @@ students.push("Jane")
 students.push("Jill")
 students.push("Jim")
 
-const distance = calcDistance("Joe", "Jim")
+const distance = calcDistance(students, "Joe", "Jim")
 console.log(distance) // 3
-const distance2 = calcDistance("Joe", "Jill")
+const distance2 = calcDistance(students, "Joe", "Jill")
 console.log(distance2) // 2

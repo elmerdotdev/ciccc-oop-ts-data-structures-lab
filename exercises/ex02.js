@@ -3,7 +3,7 @@
 
 const Stack = require('../lib/Stack');
 
-function removeBetween(a, b) {
+function removeBetween(stack, a, b) {
   // your code here
 }
 
@@ -14,5 +14,5 @@ fruits.push("Cherry");
 fruits.push("Date");
 fruits.push("Elderberry");
 
-removeBetween("Banana", "Elderberry");
+removeBetween(fruits, "Banana", "Elderberry");
 console.log(fruits.printStack()); // Apple Banana Elderberry

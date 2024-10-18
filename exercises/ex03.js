@@ -3,7 +3,7 @@
 
 const Stack = require('../lib/Stack');
 
-function insertAfterTarget(target, newElement) {
+function insertAfterTarget(stack, target, newElement) {
   // your code here
 }
 
@@ -13,5 +13,5 @@ stack.push("B");
 stack.push("C");
 stack.push("D");
 
-insertAfterTarget("B", "X");
+insertAfterTarget(stack, "B", "X");
 console.log(stack.printStack()); // A B X C D
